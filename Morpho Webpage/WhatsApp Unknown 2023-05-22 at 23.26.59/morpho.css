@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@600&display=swap');
+
+.body{
+    background: rgb(136,139,19);
+    background: linear-gradient(90deg, rgb(56, 66, 55) 0%, rgb(0, 0, 0) 51%, rgba(22, 77, 14, 0.973) 100%);
+}
+
+.navbar{
+   background-color: black;
+   padding: 10px;
+   margin-top: -9px;
+   margin-left: -8px;
+   padding-right: 12px;
+}
+
+.navbar-ul{
+    margin-left: 54%;
+    margin-top: -60px;
+    justify-content: end;
+    font-size: 19px;
+}
+
+.logoimg img{
+    border-radius: 40px;
+    margin-top: -10px;
+    margin-left: 4%;
+    margin-top: 0;
+}
+.navbrlist li{
+    display: inline;
+    margin-left: 22px;
+    margin-top: 10%;
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: ease-in-out .6s;
+    background-color: rgba(35, 233, 141, 0.295);
+    border: 2px  rgba(0, 255, 170, 0.726) outset;
+    
+}
+
+.navbrlist li:hover{
+    background-color: rgba(24, 209, 138, 0.712);
+    transition: ease-in-out .6s;
+    border: 2px  rgba(14, 223, 101, 0.842) inset;
+    
+}
+.navbrlist li a{
+    text-decoration:none;
+    color: white;
+}
+
+.card{
+    background-color: rgb(168, 22, 22);
+    margin-top: 30px;
+    margin-left: 40%;
+    width: 30%;
+    padding-top: -30%;
+    transition: ease-in-out .8s;
+}
+
+.card:hover{
+    background-color: black;
+    
+}
+.card img{
+    margin-left: 40%;
+    padding-top: -30% ;
+}
+
+.intro h2{
+    text-align: center;
+    font-family: Instrument Sans; 
+    color: white;
+    background: linear-gradient(90deg, rgb(116, 117, 10) 0%, rgb(31, 46, 44) 50%, rgb(22, 114, 72) 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    margin-left: 38%;
+    border-radius: 20px;
+
+    
+}
+.imgpalet{
+    margin-left: 9%;
+}
+.imgpalet li{
+    display: inline;
+    background: linear-gradient(90deg, rgba(163,166,34,1) 0%, rgba(53,92,86,1) 50%, rgba(41,181,118,1) 100%);
+    padding-top: 60px;
+    border-radius: 10px;
+    transition: ease-in-out .6s;
+   
+}
+.imgpalet li:hover{
+    padding-top: 240px;
+    transition: ease-in-out .6s;
+    
+    background: rgb(187,191,20);
+    background: linear-gradient(90deg, rgba(187,191,20,1) 0%, rgb(136, 129, 129) 50%, rgba(47,189,27,1) 100%);
+}
+
+.js{
+    margin-left: 12%;
+}
+.htmlandcsslogos{
+    margin-left: 12%;
+}
+.p1{
+    width: 20%;
+    color: white;
+    text-align: center;
+    margin-left: 11%;
+    line-height: 1.3;
+    font-family: instrument sans;
+}
+.p2{
+    width: 20%;
+    color: white;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: -11%;
+    line-height: 1.4;
+    font-family: instrument sans;
+}
+.p3{
+    width: 20%;
+    color: white;
+    text-align: center;
+    margin-left: 69%;
+    margin-top: -12%;
+    line-height: 1.3;
+    font-family: instrument sans;
+}
